@@ -4,7 +4,7 @@
 #
 Name     : pypi-jsonpatch
 Version  : 1.32
-Release  : 63
+Release  : 64
 URL      : https://files.pythonhosted.org/packages/21/67/83452af2a6db7c4596d1e2ecaa841b9a900980103013b867f2865e5e1cf0/jsonpatch-1.32.tar.gz
 Source0  : https://files.pythonhosted.org/packages/21/67/83452af2a6db7c4596d1e2ecaa841b9a900980103013b867f2865e5e1cf0/jsonpatch-1.32.tar.gz
 Summary  : Apply JSON-Patches (RFC 6902)
@@ -15,11 +15,8 @@ Requires: pypi-jsonpatch-license = %{version}-%{release}
 Requires: pypi-jsonpatch-python = %{version}-%{release}
 Requires: pypi-jsonpatch-python3 = %{version}-%{release}
 BuildRequires : buildreq-distutils3
-Provides: jsonpatch
-Provides: jsonpatch-python
-Provides: jsonpatch-python3
-BuildRequires : jsonpointer
 BuildRequires : pypi(jsonpointer)
+BuildRequires : pypi-jsonpointer
 
 %description
 =================
@@ -78,7 +75,7 @@ export http_proxy=http://127.0.0.1:9/
 export https_proxy=http://127.0.0.1:9/
 export no_proxy=localhost,127.0.0.1,0.0.0.0
 export LANG=C.UTF-8
-export SOURCE_DATE_EPOCH=1641449445
+export SOURCE_DATE_EPOCH=1649605135
 export GCC_IGNORE_WERROR=1
 export CFLAGS="$CFLAGS -fno-lto "
 export FCFLAGS="$FFLAGS -fno-lto "
