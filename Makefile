@@ -1,5 +1,5 @@
 PKG_NAME := pypi-jsonpatch
-URL = https://files.pythonhosted.org/packages/21/67/83452af2a6db7c4596d1e2ecaa841b9a900980103013b867f2865e5e1cf0/jsonpatch-1.32.tar.gz
+URL = https://files.pythonhosted.org/packages/42/78/18813351fe5d63acad16aec57f94ec2b70a09e53ca98145589e185423873/jsonpatch-1.33.tar.gz
 ARCHIVES = 
 
 include ../common/Makefile.common
