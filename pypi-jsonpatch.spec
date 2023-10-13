@@ -5,7 +5,7 @@
 #
 Name     : pypi-jsonpatch
 Version  : 1.33
-Release  : 76
+Release  : 77
 URL      : https://files.pythonhosted.org/packages/42/78/18813351fe5d63acad16aec57f94ec2b70a09e53ca98145589e185423873/jsonpatch-1.33.tar.gz
 Source0  : https://files.pythonhosted.org/packages/42/78/18813351fe5d63acad16aec57f94ec2b70a09e53ca98145589e185423873/jsonpatch-1.33.tar.gz
 Summary  : Apply JSON-Patches (RFC 6902)
